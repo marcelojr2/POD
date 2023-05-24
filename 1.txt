@@ -1,0 +1,23 @@
+Nome Completo: Dalvan Griebler
+CPF-> 13318822008
+criar uma-> contaCorrente
+atribuir saldoInicial-> 400
+atribuir id da conta-> 1001  
+atribuir limiteChequeEspecial-> -100
+criar uma-> contaPoupanca
+atribuir saldoInicial-> 500
+atribuir id da conta-> 4001
+atribuir taxaRendimento-> 0.5
+criar uma-> contaInvestimento
+atribuir saldoInicial-> 800
+atribuir id da conta-> 8001
+atribuir tipoRisco-> Baixo
+realizar saque-> contaInvestimento -> 20
+realizar saque-> contaCorrente -> 420
+realizar deposito-> contaCorrente -> 20
+consultar saldo-> contaCorrente
+consultar saldo-> contaPoupanca
+consultar saldo-> contaInvestimento
+calcular rendimento-> contaCorrente: 20 dias
+calcular rendimento-> contaPoupanca: 20 dias
+calcular rendimento-> contaInvestimento: 10 dias

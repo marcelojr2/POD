@@ -1,0 +1,23 @@
+Nome Completo: João Carlos
+CPF-> 13348822008
+criar uma-> contaCorrente
+atribuir saldoInicial-> 400
+atribuir id da conta-> 1002  
+atribuir limiteChequeEspecial-> -100
+criar uma-> contaPoupanca
+atribuir saldoInicial-> 500
+atribuir id da conta-> 4002
+atribuir taxaRendimento-> 0.5
+criar uma-> contaInvestimento
+atribuir saldoInicial-> 800
+atribuir id da conta-> 8002
+atribuir tipoRisco-> Baixo
+realizar saque-> contaInvestimento-> 40
+realizar saque-> contaCorrente-> 320
+realizar deposito-> contaCorrente-> 40
+consultar saldo-> contaCorrente
+consultar saldo-> contaPoupanca
+consultar saldo-> contaInvestimento
+calcular rendimento-> contaCorrente: 40 dias
+calcular rendimento-> contaPoupanca: 40 dias
+calcular rendimento-> contaInvestimento: 30 dias
